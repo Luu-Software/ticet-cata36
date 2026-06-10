@@ -71,6 +71,11 @@ function calcularTotal(id: string, cantidadNum: number,codigoDescuento: string)
                 if(codigoDescuento == "TIC20") {return (150 * 0.8) * cantidadNum}
                 if(codigoDescuento == "DARIO") {return (150 * 0.5) * cantidadNum}
               }
+              else
+              {
+                return 0;
+              }
+
 }
 
 // COMPLETAR: Implementar la función calcularTotal que reciba el id del artista, la cantidad de entradas y un código de descuento (opcional) y devuelva el precio total a pagar en patacones.
